@@ -3,25 +3,18 @@
 
 .feed {
   &__item {
-    @include margin-bottom(1.25);
-
-    &:last-child {
-      @include margin-bottom(.5);
-    }
 
     &-title {
-      font-size: $typographic-base-font-size * 1.6875;
-      @include line-height(1.5);
+      font-size: $typographic-base-font-size;
       @include margin-top(0);
-      @include margin-bottom(.5);
+      @include margin-bottom(0);
 
       &-link {
-        color: $color-base;
-
+        color: $color-secondary;
         &:hover,
         &:focus {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: $color-secondary;
+          border-bottom: 1px solid $color-secondary;
         }
 
       }
@@ -29,9 +22,9 @@
     }
 
     &-description {
-      font-size: $typographic-base-font-size;
-      @include line-height(1);
+      font-size: $typographic-small-font-size;
       @include margin-bottom(.75);
+      color: rgba(0,0,0,0.7)
     }
 
     &-meta {

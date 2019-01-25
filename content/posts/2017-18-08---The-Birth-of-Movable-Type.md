@@ -6,9 +6,7 @@ draft: false
 slug: "/posts/the-birth-of-movable-type/"
 category: "Typography"
 tags:
-  - "Open source"
-  - "Gatsby"
-  - "Typography"
+  - "Delta 8"
 description: "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible."
 ---
 

@@ -6,9 +6,7 @@ draft: false
 slug: "/posts/humane-typography-in-the-digital-age/"
 category: "Typography"
 tags:
-  - "Design"
-  - "Typography"
-  - "Web Development"
+  - "Delta"
 description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
 ---
 

@@ -1,14 +1,11 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
+import Page from "../components/Page";
 import Sidebar from '../components/Sidebar';
-import Page from '../components/Page';
 
 const PageTemplate = ({ data }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  const { title: siteTitle, subtitle: siteSubtitle } = data.site.siteMetadata;
 
   const {
     title: pageTitle,

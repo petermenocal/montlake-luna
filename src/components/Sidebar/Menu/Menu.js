@@ -1,8 +1,9 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
+import kebabCase from 'lodash/kebabCase';
 import styles from './Menu.module.scss';
 
-const Menu = ({ menu }) => (
+const Menu = ({ menu, tags }) => (
   <nav className={styles['menu']}>
     <ul className={styles['menu__list']}>
       {menu.map((item) => (
@@ -16,6 +17,13 @@ const Menu = ({ menu }) => (
           </Link>
         </li>
       ))}
+          {tags.map((tag) => (
+            <li key={tag.fieldValue} className={styles['menu__list-item']} >
+              <Link to={`/tag/${kebabCase(tag.fieldValue)}/`} className={styles['menu__list-item-link']} activeClassName={styles['menu__list-item-link--active']}>
+                { tag.fieldValue }
+              </Link>
+            </li>
+          ))}
     </ul>
   </nav>
 );

@@ -1,9 +1,10 @@
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
+
 import Author from './Author';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
+import React from 'react';
 import styles from './Sidebar.module.scss';
 
 export const PureSidebar = ({ data, isIndex }) => {
@@ -13,17 +14,19 @@ export const PureSidebar = ({ data, isIndex }) => {
     menu
   } = data.site.siteMetadata;
 
+  const { group } = data.allMarkdownRemark;
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
         <Author author={author} isIndex={isIndex} />
-        <Menu menu={menu} />
+        <Menu menu={menu} tags={group}/>
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
       </div>
     </div>
   );
 };
+
 
 export const Sidebar = (props) => (
   <StaticQuery
@@ -51,6 +54,14 @@ export const Sidebar = (props) => (
                 vkontakte
               }
             }
+          }
+        }
+        allMarkdownRemark(
+          filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+        ) {
+          group(field: frontmatter___tags) {
+            fieldValue
+            totalCount
           }
         }
       }
