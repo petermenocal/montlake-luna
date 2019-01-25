@@ -1,7 +1,7 @@
 {
-  "version": "3.0.0",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "version": "0.0.1",
+  "name": "montlake-luna",
+  "description": "",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
@@ -15,8 +15,8 @@
     "test:coverage": "jest --coverage --config ./tests/jest-config.js",
     "test:watch": "jest --watch --config ./tests/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/petermenocal/montlake-luna",
+  "author": "Peter Menocal <pm@exhalebrands.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
