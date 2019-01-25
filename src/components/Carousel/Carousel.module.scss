@@ -3,4 +3,23 @@
 
 .carousel {
     @include margin-bottom(0);
+    height: 50vh;
+
+
+    &__item {
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0,0 , 0.9), rgba(0, 0,0 , 0.3)), url('https://source.unsplash.com/random/1600x900') center center;
+        background-size: cover;
+    }
+    &__item-2 {
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0,0 , 0.9), rgba(0, 0,0 , 0.3)), url('https://source.unsplash.com/random/1601x900') center center;
+        background-size: cover;
+    }
+    &__item-3 {
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0,0 , 0.9), rgba(0, 0,0 , 0.3)), url('https://source.unsplash.com/random/1602x900') center center;
+        background-size: cover;
+    }
 }
+

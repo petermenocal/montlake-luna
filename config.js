@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://montlake-lumen.netlify.com',
+  url: 'https://eager-mcnulty-8c5934.netlify.com',
   title: 'Montlake Bioscience',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',

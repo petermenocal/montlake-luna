@@ -1,12 +1,10 @@
 ---
-title: "About me"
+title: "About Montlake"
 template: "page"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-
 ![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+Montlake Bioscience was created in response to the need for to revolutionizing the fields of nutraceutical products, sustainability and medicinal delivery. Next generation product development is engaged through comprehensive efforts in research and innovation. We are driven by a passion for creative solutions and a commitment to envision the future. 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+With a pedigree of success in multiple disciplines we have broad capability from industry leading vertically integrated cannabis operations to research and development of sustainable solutions in materials research and the science of innovative medicinal delivery systems. Through research and development of new categories and formulations of cannabinoid-based treatments to creating advanced solutions in polymerization and sustainability innovation, Montlake Bioscience carries forward our mission to improve quality of life for a broad cross section of society.
